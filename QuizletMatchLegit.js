@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [LEGIT BOT] Quizlet micromatch bot
 // @namespace    Edited by Not Michael Lee, Original Code by Danielv123
-// @version      e3.0 1.1.2
+// @version      e3.0 1.1.3
 // @description  Win micromatch with 100% accuracy really fast
 // @author       You
 // @match        https://quizlet.com/*/micro*
