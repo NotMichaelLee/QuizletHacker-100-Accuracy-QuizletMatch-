@@ -57,12 +57,12 @@ document.onclick = ()=>{
                         eventFire(document.querySelector(".MatchModeQuestionGridBoard-tiles").childNodes[o].childNodes[0], "pointerdown");
                         setTimeout(()=>{
                             eventFire(document.querySelector(".MatchModeQuestionGridBoard-tiles").childNodes[x].childNodes[0], "pointerdown");
-                        },350); //Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
-                    },i*650);//Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
+                        },150); //Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
+                    },i*350);//Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
                 }
             }
         }
-    }},1250);//Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
+    }},650);//Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
 };
 //RULE: Top number must be 100 less than middle number
 //Middle number must be less than bottom number
