@@ -62,6 +62,6 @@ document.onclick = ()=>{
                 }
             }
         }
-    }},10);//value of the first click, you can put it as low or high as possible.
+    }},10);//value of the first click, for 100% accuracy, have this more than the middle number
 };
 //RULE: Top number must be 100 less than middle number
