@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [LEGIT BOT] Quizlet micromatch bot
 // @namespace    Edited by Not Michael Lee, Original Code by Danielv123
-// @version      e3.0 1.0
+// @version      e3.0 1.1.2
 // @description  Win micromatch with 100% accuracy really fast
 // @author       You
 // @match        https://quizlet.com/*/micro*
@@ -57,12 +57,11 @@ document.onclick = ()=>{
                         eventFire(document.querySelector(".MatchModeQuestionGridBoard-tiles").childNodes[o].childNodes[0], "pointerdown");
                         setTimeout(()=>{
                             eventFire(document.querySelector(".MatchModeQuestionGridBoard-tiles").childNodes[x].childNodes[0], "pointerdown");
-                        },150); //Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
-                    },i*350);//Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
+                        },150); //Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times, value for the first click OF EACH MATCH
+                    },i*350);//Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times, value for the SECOND click OF each match
                 }
             }
         }
-    }},650);//Fastest number for the value for 100% accuracy, put it higher for slower time for more legitamate times
+    }},10);//value of the first click, you can put it as low or high as possible.
 };
 //RULE: Top number must be 100 less than middle number
-//Middle number must be less than bottom number
